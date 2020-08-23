@@ -25,3 +25,7 @@ fi
 git clone https://github.com/xpirt/img2sdat A/tools/img2sdat
 
 git clone https://github.com/xpirt/img2sdat AB/tools/img2sdat
+
+mkdir input
+
+echo "You are ready to use GSI2ROM !"

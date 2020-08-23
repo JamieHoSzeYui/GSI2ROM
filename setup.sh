@@ -22,4 +22,6 @@ elif [[ "$OSTYPE" == "darwin"* ]]; then
     pip install backports.lzma protobuf pycrypto
 fi
 
-git clone https://github.com/xpirt/img2sdat tools/img2sdat
+git clone https://github.com/xpirt/img2sdat A/tools/img2sdat
+
+git clone https://github.com/xpirt/img2sdat AB/tools/img2sdat

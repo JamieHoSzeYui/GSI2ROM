@@ -1,3 +1,0 @@
-ui_print("Made with GSI2ROM by henloboi"); 
-package_extract_file("system.transfer.list"), "system.new.dat.br", "system.patch.dat") ||
-  abort("E1001: Failed to update system image.");

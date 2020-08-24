@@ -32,8 +32,11 @@ bash setup.sh
 
 ### Notes ###
 
-This tool is WIP. test it yourself.
+This tool is out of WIP. Thanks to my hard work (no)
 
+Feel free to PM me on Telegram if you have any enquiry. 
+
+Credit this tool if you made a port with the tool.
 
 ### Credits and thanks ###
 

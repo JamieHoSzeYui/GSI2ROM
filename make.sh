@@ -3,6 +3,7 @@
 # GSI2ROM shit by henloboi
 
 clear
+mkdir output
 figlet GSI2ROM
 
 read -p "Please place GSI inside input folder. press any key to continue."

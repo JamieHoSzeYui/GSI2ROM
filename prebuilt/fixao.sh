@@ -9,6 +9,7 @@ echo " 1 : OOS Data Fix "
 echo " 2 : VOS Rounded corner fix"
 echo " 3 : Enable OnScreen Keys on first boot"
 echo " 4 : Edit BuildProp Manually using nano"
+echo " 5 : MIUI : Fix Mi Account + Hotspot"
 echo " 0 : exit "
 read -p "Apply Fix : " fix
 if [[ $fix = 1 ]]; then
@@ -25,6 +26,11 @@ elif [[ $fix = 3 ]]; then
         bash prebuilt/fixao.sh
 elif [[ $fix = 4 ]]; then
         sudo nano system/build.prop
+        bash prebuilt/fixao.sh
+elif [[ $fix = 5 ]]; then
+        sudo echo "ro.product.device=india" >> system/build.prop
+        sudo rm -rf system/priv-app/Provision
+        sudo rm -rf system/app/XiaomiServicesFramework
         bash prebuilt/fixao.sh
 elif [[ $fix = 0 ]]; then
         bash repack.sh

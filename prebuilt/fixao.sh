@@ -3,7 +3,6 @@
 #Fixes patcher
 
 clear
-cd ..
 figlet Fixes
 figlet Patcher
 
@@ -33,6 +32,6 @@ elif [[ $fix = 4 ]]; then
 	sudo nano system/build.prop
 	bash prebuilt/fixao.sh
 elif [[ $fix = 0 ]]; then
-	bash repack.sh
+	bash ../repack.sh
 fi
 

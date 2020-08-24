@@ -27,6 +27,7 @@ elif [[ ($resize = y) ]]; then
 	sudo e2fsck -f cache/system.img
 	sudo resize2fs cache/system.img
 	echo "Resize done !"
+fi
 
 echo "Mounting Images.."
 sudo mount cache/system.img system

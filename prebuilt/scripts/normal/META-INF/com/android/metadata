@@ -1,0 +1,9 @@
+ota-property-files=metadata:69:325         
+ota-required-cache=0
+ota-type=BLOCK
+post-build=Redmi/curtana_global/curtana:10/QKQ1.191215.002/V11.0.9.0.QJWMIXM:user/release-keys
+post-build-incremental=eng.jamieh.20200821.122950
+post-sdk-level=29
+post-security-patch-level=2020-08-05
+post-timestamp=1597984137
+pre-device=curtana

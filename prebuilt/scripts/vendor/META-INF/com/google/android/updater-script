@@ -1,0 +1,5 @@
+ui_print("Made with GSI2ROM by henloboi"); 
+block_image_update("/dev/block/bootdevice/by-name/system", package_extract_file("system.transfer.list"), "system.new.dat.br", "system.patch.dat") ||
+block_image_update("/dev/block/bootdevice/by-name/cust", package_extract_file("vendor.transfer.list"), "vendor.new.dat.br", "vendor.patch.dat") ||
+package_extract_file("boot.img", "/dev/block/bootdevice/by-name/boot");
+

@@ -15,4 +15,12 @@ zip -r $zipname-GSI2ROM.zip .
 cd ../
 mv temp/*.zip output/
 echo "GSI2ROM done at output/$zipname-GSI2ROM.zip"
+read -p "Include vendor in zip? (Y/N) " vendor
+if [[ ($vendor = Y) ]]; then
+    bash vendor.sh
+elif [[ ($vendor = Y) ]]; then
+    bash vendor.sh
+else
+    echo "Thank you for using the tool."
+fi
 rm -rf temp cache system working
